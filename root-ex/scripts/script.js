@@ -1,0 +1,1 @@
+alert('script.js 적용 완료');
