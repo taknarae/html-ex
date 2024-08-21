@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>240821-form</title>
+</head>
+<body>
+  <form action="">
+    <fieldset>
+      <legend>입력 양식</legend>
+      <div>이름 : <input type="text" name="username"></div>
+      <div>이메일 : <input type="email"></div>
+      <input type="submit" value="전송">
+    </fieldset>
+  </form>
+  <hr><hr><hr>
+  <form>
+    <fieldset>
+        <legend>Text Inputs</legend>
+        
+        <!-- Text Input -->
+        <label for="text">Text:</label>
+        <input type="text" id="text" name="text">
+        <br>
+
+        <!-- Password Input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <br>
+
+        <!-- Email Input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br>
+
+        <!-- URL Input -->
+        <label for="url">URL:</label>
+        <input type="url" id="url" name="url">
+        <br>
+
+        <!-- Tel Input -->
+        <label for="tel">Telephone:</label>
+        <input type="tel" id="tel" name="tel">
+        <br>
+
+        <!-- Number Input -->
+        <label for="number">Number:</label>
+        <input type="number" id="number" name="number">
+        <br>
+
+        <!-- Range Input -->
+        <label for="range">Range:</label>
+        <input type="range" id="range" name="range" min="0" max="100">
+        <br>
+
+        <!-- Date Input -->
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date">
+        <br>
+
+        <!-- Time Input -->
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time">
+        <br>
+
+        <!-- Color Input -->
+        <label for="color">Color:</label>
+        <input type="color" id="color" name="color">
+        <br>
+
+        <!-- Checkbox Input -->
+        <label for="checkbox">Checkbox:</label>
+        <input type="checkbox" id="checkbox" name="checkbox">
+        <br>
+
+        <!-- Radio Input -->
+        <label for="radio1">Radio 1:</label>
+        <input type="radio" id="radio1" name="radio" value="1">
+        <label for="radio2">Radio 2:</label>
+        <input type="radio" id="radio2" name="radio" value="2">
+        <br>
+
+        <!-- File Input -->
+        <label for="file">File:</label>
+        <input type="file" id="file" name="file">
+        <br>
+
+        <!-- Hidden Input -->
+        <input type="hidden" id="hidden" name="hidden" value="hiddenValue">
+    </fieldset>
+
+    <fieldset>
+        <legend>Other Inputs</legend>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+        <br>
+
+        <!-- Reset Button -->
+        <input type="reset" value="Reset">
+        <br>
+
+        <!-- Button -->
+        <input type="button" value="Click Me" onclick="alert('Button clicked!')">
+        <br>
+    </fieldset>
+</form>
+</body>
+</html>
